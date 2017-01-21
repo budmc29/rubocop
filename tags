@@ -1,0 +1,28 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CLI	lib/rubocop/cli.rb	/^  class CLI$/;"	c	class:Rubocop
+Cop	lib/rubocop/cop/cop.rb	/^    class Cop$/;"	c	class:Rubocop.Cop
+Cop	lib/rubocop/cop/cop.rb	/^  module Cop$/;"	m	class:Rubocop
+Cop	lib/rubocop/cop/line_length_cop.rb	/^  module Cop$/;"	m	class:Rubocop
+Cop	lib/rubocop/cop/offence.rb	/^  module Cop$/;"	m	class:Rubocop
+Cop	spec/rubocop/cops/offence_spec.rb	/^  module Cop$/;"	m	class:Rubocop
+LineLengthCop	lib/rubocop/cop/line_length_cop.rb	/^    class LineLengthCop < Cop$/;"	c	class:Rubocop.Cop
+Offence	lib/rubocop/cop/offence.rb	/^    class Offence$/;"	c	class:Rubocop.Cop
+Rubocop	lib/rubocop/cli.rb	/^module Rubocop$/;"	m
+Rubocop	lib/rubocop/cop/cop.rb	/^module Rubocop$/;"	m
+Rubocop	lib/rubocop/cop/line_length_cop.rb	/^module Rubocop$/;"	m
+Rubocop	lib/rubocop/cop/offence.rb	/^module Rubocop$/;"	m
+Rubocop	lib/rubocop/version.rb	/^module Rubocop$/;"	m
+Rubocop	spec/rubocop/cops/offence_spec.rb	/^module Rubocop$/;"	m
+add_offence	lib/rubocop/cop/cop.rb	/^      def add_offence(file, line_number, line, message)$/;"	f	class:Rubocop.Cop.Cop
+initialize	lib/rubocop/cop/cop.rb	/^      def initialize$/;"	f	class:Rubocop.Cop.Cop
+initialize	lib/rubocop/cop/offence.rb	/^      def initialize(filename, line_number, line, message)$/;"	f	class:Rubocop.Cop.Offence
+inspect	lib/rubocop/cop/line_length_cop.rb	/^      def inspect(file)$/;"	f	class:Rubocop.Cop.LineLengthCop
+report	lib/rubocop/cop/cop.rb	/^      def report$/;"	f	class:Rubocop.Cop.Cop
+run	lib/rubocop/cli.rb	/^    def run$/;"	f	class:Rubocop.CLI
+target_files	lib/rubocop/cli.rb	/^    def target_files$/;"	f	class:Rubocop.CLI
+to_s	lib/rubocop/cop/offence.rb	/^      def to_s$/;"	f	class:Rubocop.Cop.Offence
